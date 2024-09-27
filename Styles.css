@@ -2,7 +2,7 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4; /* Light Gray */
+    background-color: #ffffff; /* White background */
     color: #333333; /* Dark Gray for text */
 }
 
@@ -32,7 +32,7 @@ body {
 }
 
 .btn {
-    background-color: #3498db; /* Bright Blue */
+    background-color: #e74c3c; /* Bright Red */
     color: white;
     padding: 10px 20px;
     text-decoration: none;
@@ -41,7 +41,7 @@ body {
 }
 
 .btn:hover {
-    background-color: #2980b9; /* Darker blue on hover */
+    background-color: #c0392b; /* Dark Red on hover */
 }
 
 .about, .projects, .skills, footer {
@@ -75,12 +75,12 @@ body {
 footer {
     text-align: center;
     padding: 20px;
-    background: #2c3e50; /* Dark Blue/Gray */
+    background: #e74c3c; /* Bright Red for footer */
     color: white; /* White text for footer */
 }
 
 footer a {
-    color: #e74c3c; /* Red for links */
+    color: #f39c12; /* Bright Orange for links */
 }
 
 footer a:hover {
