@@ -2,7 +2,8 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #f4f4f4; /* Light Gray */
+    color: #333333; /* Dark Gray for text */
 }
 
 .hero {
@@ -12,7 +13,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: white;
+    color: white; /* White text for hero section */
     text-align: center;
 }
 
@@ -31,7 +32,7 @@ body {
 }
 
 .btn {
-    background-color: #3498db;
+    background-color: #3498db; /* Bright Blue */
     color: white;
     padding: 10px 20px;
     text-decoration: none;
@@ -40,7 +41,7 @@ body {
 }
 
 .btn:hover {
-    background-color: #2980b9;
+    background-color: #2980b9; /* Darker blue on hover */
 }
 
 .about, .projects, .skills, footer {
@@ -74,6 +75,14 @@ body {
 footer {
     text-align: center;
     padding: 20px;
-    background: #2c3e50;
-    color: white;
+    background: #2c3e50; /* Dark Blue/Gray */
+    color: white; /* White text for footer */
+}
+
+footer a {
+    color: #e74c3c; /* Red for links */
+}
+
+footer a:hover {
+    text-decoration: underline;
 }
