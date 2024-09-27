@@ -1,5 +1,5 @@
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
     background-color: #ffffff; /* White background */
@@ -7,14 +7,15 @@ body {
 }
 
 .hero {
-    background: url('path/to/your-background.jpg') no-repeat center center/cover;
+    background: #e74c3c; /* Bright Red */
     height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: white; /* White text for hero section */
+    color: white;
     text-align: center;
+    padding: 20px;
 }
 
 .hero-content h1 {
@@ -32,7 +33,7 @@ body {
 }
 
 .btn {
-    background-color: #e74c3c; /* Bright Red */
+    background-color: #f39c12; /* Bright Orange */
     color: white;
     padding: 10px 20px;
     text-decoration: none;
@@ -41,7 +42,7 @@ body {
 }
 
 .btn:hover {
-    background-color: #c0392b; /* Dark Red on hover */
+    background-color: #d88a0d; /* Darker orange on hover */
 }
 
 .about, .projects, .skills, footer {
@@ -56,6 +57,7 @@ body {
 .projects {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .project {
@@ -64,7 +66,7 @@ body {
     border: 1px solid #ddd;
     border-radius: 5px;
     padding: 15px;
-    background: #fff;
+    background: #f9f9f9;
 }
 
 .project img {
@@ -76,7 +78,7 @@ footer {
     text-align: center;
     padding: 20px;
     background: #e74c3c; /* Bright Red for footer */
-    color: white; /* White text for footer */
+    color: white;
 }
 
 footer a {
